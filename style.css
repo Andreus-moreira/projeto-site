@@ -116,6 +116,7 @@ nav .navigation ul li a:hover {
 }
 
 #home a.blue {
+    text-decoration: none;
     color: #fff;
     background: rgb(21, 21, 100);
     transition: 0.3s ease;
@@ -128,6 +129,7 @@ nav .navigation ul li a:hover {
 } 
 
 #home a.yellow {
+    text-decoration: none;
     color: #fff;
     background: #FDC93B;
     transition: 0.3s ease;
@@ -303,12 +305,12 @@ font-size: .9rem;
 }
 
 #registration a.yellow {
-    text-decoration: 0,9rem;
+    text-decoration: none;
     padding: 13px 35px;
     background-color: #fff;
     font-weight: 600;
     border-radius: 5px;
-    color: #fff;
+    color: #130f0f;
     background: #FDC93B;
     transition: 0.3s ease;
     
