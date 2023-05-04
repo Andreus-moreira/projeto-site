@@ -49,6 +49,20 @@ nav img {
     cursor: pointer;
 }
 
+nav .navigation {
+    display: flex;
+}
+
+#menu-btn {
+    width: 30px;
+    height: 30px;
+    display: none;
+}
+
+#menu-close {
+    display: none;
+}
+
 nav .navigation ul{
     display: flex;
     justify-content: flex-end;
@@ -468,11 +482,31 @@ footer .copyright .pro-links i:hover {
 
 @media (max-width: 769px) {
     nav {
-        padding: 15px 80px;
+        padding: 15px 20px;
 
     }
     nav img {
         width: 130px;
+    }
+
+    #menu-btn {
+        display: initial;
+    }
+    
+    #menu-close {
+        display: none;
+    }
+    
+    nav .navigation ul {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 220px;background: #fff;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
     }
 
 }
