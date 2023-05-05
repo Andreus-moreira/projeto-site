@@ -390,7 +390,7 @@ footer {
     flex-wrap: wrap;
 }
 
-footer .foot-col {
+footer .footer-col {
     padding-bottom: 40px;
 }
 
@@ -413,12 +413,13 @@ footer li:hover {
 
 }
 
-footer p{
-    color: rgb#7b838a;
+footer p {
+    color: #7b838a;
 }
 
 footer .subscribe {
     margin-top: 20px;
+    
 }
 
 footer input{
@@ -459,8 +460,8 @@ footer .copyright {
     flex-wrap: wrap;
 }
 
-footer .copyright {
-    color: #fff;
+footer .copyright p {
+   color: #fff;
    
 }
 
@@ -514,6 +515,7 @@ footer .copyright .pro-links i:hover {
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
+        transition: 0.3s ease;
     }
 
     nav .navigation ul.active {
@@ -529,4 +531,59 @@ footer .copyright .pro-links i:hover {
         color: #fff;
     }
 
+    #home {
+        padding-top: 0px;
+    }
+
+    #home p {
+        width: 90%;
+    }
+
+    #features {
+        padding: 8vw 4vw 0 4vw;
+    }
+
+    #course {
+        padding: 8vw 4vw 0 4vw;       
+    }
+
+    #registration {
+        margin-top: 8vw;
+        padding: 6vw 4vw 6vw 4vw;
+    }
+
+    #registration .reminder .time {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top:40px;
+    }
+
+    #experts {
+        padding: 8vw 8vw 4vw 8vw;
+        text-align: center;
+    }
+
+    footer .copyright .pro-links {
+        margin-top: 15px;
+    }
+
+}
+
+@media (max-width:475px){
+    #registration {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #registration .reminder .time {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 }
