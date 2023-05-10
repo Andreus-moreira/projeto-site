@@ -559,7 +559,7 @@ footer .copyright .pro-links i:hover {
 
 #trust {
     text-align: center;
-    padding: 8vw;
+    padding: 4  vw;
 }
 
 #trust .trust-img {
@@ -573,6 +573,73 @@ footer .copyright .pro-links i:hover {
     width: 90px;
     height: auto;
 
+}
+
+/* Blog */
+
+#blog-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 8vw;
+}
+
+#blog-container .blogs {
+    width: 60%;
+}
+
+#blog-container .blogs img {
+    width: 100%;
+    border-radius: 19px;
+}
+
+#blog-container .blogs .post {
+    padding-bottom: 60px;
+}
+
+#blog-container .post h3 {
+    color: #29303B;
+    padding: 15px 0 10px 0;
+}
+
+#blog-container .post p {
+    color: #757373;
+    padding-bottom: 20px;
+}
+
+#blog-container .post a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 13px 35px;
+    background-color: rgb(21, 21, 100);
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+#blog-container .cate {
+    width: 30%;
+}
+
+#blog-container .cate h2 {
+    padding-bottom: 7px;
+}
+
+#blog-container .cate a {
+    text-decoration: none;
+    color: #757373;
+    font-weight: 500;
+    line-height: 45px;
+}
+
+#blog-container .blogpost {
+    width: 60%;
+    margin: 0 auto;
+} 
+
+#blog-container .blogpost p {
+    text-align: justify;
+    padding-bottom: 60px !important;
 }
 
 @media (max-width: 769px) {
@@ -678,6 +745,22 @@ footer .copyright .pro-links i:hover {
     height: auto;
 }
 
+/* Blog */
+
+#blog-container {
+    padding: 8vw 4vw;
+}
+
+#blog-container .blogpost {
+    width: 100%;
+    margin-top: 30px;
+}
+
+#blog-container .blogspost img {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+}
 
 @media (max-width:475px){
     h1 {
@@ -729,6 +812,31 @@ footer .copyright .pro-links i:hover {
         width: 60px;
         margin: 10px 15px;
         height: auto;        
+    }
+
+    /* blog */
+
+    #blog-container {
+        flex-direction: column;
+    }
+
+    #blog-container .blogs {
+        width: 100%;
+    }
+
+    #blog-container .cate {
+        width: 100%;
+    }
+
+    #blog-container .blogpost {
+        width: 100%;
+        margin-top: 70px;
+    }
+    
+    #blog-container .blogspost img {
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
     }
 }
 
